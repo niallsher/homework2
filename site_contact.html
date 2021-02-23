@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name='viewport' content="width=device-width, initial-scale=1">
+<title>contact</title>
+<link type="text/css" rel="stylesheet" href="style.css"/>
+<style type ="text/css">
+
+	#locations ul {padding-left: 0px;}
+	#locations ul .city {display: inline-block; list-style-type: none; padding: 10px 10px; font-size: 15px; border: 1px solid #000; margin: 2px; font-weight: bold;}
+
+	#locations ul .city .hours li {display: block; list-style-type: none; padding: 3px 10px; font-weight: normal}
+
+	.number {display: none;}
+
+	#phone .phone_num a {text-decoration: none; color: #00f;}
+	.phone_num:hover + .number {display: block; color: #f00;}
+	#phone .phone_num a:hover {color: #000;}
+
+	/*.city {font-size: 15px; border-right: 1px solid #000;}*/
+	/*#locations ul li ul li {border-right: 0px solid #000;}*/
+
+	/*#nav li:last-child a {border-right: none;}*/
+
+</style>
+</head>
+
+<body>
+	<div id='title_bar'>
+		<h1><a href='site_home.html'>Your Storage</a></h1>
+		<div id='nav'>
+			<ul>
+				<li><a href='site_home.html'>Home</a></li>
+				<li><a href='site_about.html'>About</a></li>
+				<li class='active'><a href='site_contact.html'>Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id='content'>
+		<h3>You can find us at any of our locations!</h3>
+		<div id='locations'>
+			<ul>
+				<li class='city'>Boston, MA
+					<ul class='hours'>
+						<li>Hours</li>
+						<li>Mon - Fri: 10:00AM - 6:00PM</li>
+						<li>Sat - Sun: 10:00AM - 3:00PM</li>
+					</ul>
+				</li>
+				<li class='city'>Cambridge, MA
+					<ul class='hours'>
+						<li>Hours</li>
+						<li>Mon - Fri: 10:00AM - 6:00PM</li>
+						<li>Sat - Sun: 10:00AM - 3:00PM</li>
+					</ul>
+				</li>
+					
+				<li class='city'>Worcester, MA
+					<ul class='hours'>
+						<li>Hours</li>
+						<li>Mon - Fri: 10:00AM - 6:00PM</li>
+						<li>Sat - Sun: 10:00AM - 3:00PM</li>
+					</ul>
+				</li>
+					
+				<li class='city'>Providence, RI
+					<ul class='hours'>
+						<li>Hours</li>
+						<li>Mon - Fri: 10:00AM - 6:00PM</li>
+						<li>Sat - Sun: 10:00AM - 3:00PM</li>
+					</ul>
+				</li>
+					
+				<li class='city'>New York City, NY
+					<ul class='hours'>
+						<li>Hours</li>
+						<li>Mon - Fri: 10:00AM - 6:00PM</li>
+						<li>Sat - Sun: 10:00AM - 3:00PM</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<br>
+		<div id=phone>
+			<span><a href="tel:800-786-7243"><img src='phone.jpg' align='center' height="50"></a></span>
+			<p> We can be reached at
+				<span class='phone_num'><a href="tel:800-786-7243">(800) STO-RAGE</a></span>
+				24/7. Please give us a call!
+				<span class='number'>
+					(800) 786-7243
+				</span>
+			</p>
+			
+		</div>
+	</div>
+</body>
+</html>
